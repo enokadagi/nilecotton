@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "pretitle": "Luxury hospitality textiles",
+    "title": "Elevated bedding, towels, and spa textiles for hotels, resorts, and residences.",
+    "subtitle": "Warm, tactile fibers designed for hospitality environments where calm, premium comfort is essential.",
+    "imageUrl": "https://toolset.com/wp-content/uploads/2021/05/toolset-hero-text-1.png",
+    "imageAlt": "NileCotton luxury textile presentation",
+    "primaryLabel": "Explore collections",
+    "primaryHref": "#collections",
+    "secondaryLabel": "Request pricing",
+    "secondaryHref": "#b2b"
+  },
+  "collections": [
+    {
+      "id": "collection-1",
+      "title": "Toweling essentials",
+      "description": "Soft, absorbent towels that feel luxurious and refined in every suite.",
+      "imageUrl": "/nilecotton.png",
+      "imageAlt": "Luxury towel collection"
+    },
+    {
+      "id": "collection-2",
+      "title": "Spa robe rituals",
+      "description": "Relaxed silhouettes woven from premium cotton with a discreet, elevated finish.",
+      "imageUrl": "/nilecotton.png",
+      "imageAlt": "Spa robe textiles"
+    },
+    {
+      "id": "collection-3",
+      "title": "Guestroom accents",
+      "description": "Curated linens and vanity details created for calm, memorable interiors.",
+      "imageUrl": "/nilecotton.png",
+      "imageAlt": "Guestroom textile accents"
+    }
+  ],
+  "hotelCollection": [
+    {
+      "id": "hotel-1",
+      "title": "Guestroom programs",
+      "description": "Textile palettes that support serene and sophisticated hospitality settings.",
+      "imageUrl": "/nilecotton.png",
+      "imageAlt": "Guestroom textile program"
+    },
+    {
+      "id": "hotel-2",
+      "title": "Spa and wellness",
+      "description": "Soft, restorative linens designed for quiet spa rituals and premium treatments.",
+      "imageUrl": "/nilecotton.png",
+      "imageAlt": "Spa textile collection"
+    }
+  ],
+  "products": [
+    {
+      "id": "product-1",
+      "title": "Signature bath towels",
+      "detail": "A tactile weave with a luminous hand and exceptional durability.",
+      "imageUrl": "/nilecotton.png",
+      "imageAlt": "Signature bath towels"
+    },
+    {
+      "id": "product-2",
+      "title": "Weighted bathrobes",
+      "detail": "Substantial, draped robes that feel indulgent and easy to wear.",
+      "imageUrl": "/nilecotton.png",
+      "imageAlt": "Weighted bathrobe"
+    },
+    {
+      "id": "product-3",
+      "title": "Suite essentials",
+      "detail": "Thoughtful details and soft neutrals that anchor premium guest experiences.",
+      "imageUrl": "/nilecotton.png",
+      "imageAlt": "Suite essentials"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial-1",
+      "quote": "The textiles transformed our suites with calm, understated luxury.",
+      "author": "– General Manager, Luxury Resort"
+    },
+    {
+      "id": "testimonial-2",
+      "quote": "Every piece feels deliberate and beautifully finished.",
+      "author": "– Director of Hospitality, Boutique Hotel"
+    },
+    {
+      "id": "testimonial-3",
+      "quote": "Exceptional quality, consistently delivered across multiple properties.",
+      "author": "– Procurement Lead, Private Residences"
+    }
+  ],
+  "contact": {
+    "headline": "Speak with our hospitality team.",
+    "email": "thenilecotton@gmail.com",
+    "phone": "+961 70 693 560",
+    "altEmail": "nilecotton@nilelink.app",
+    "buttonText": "WhatsApp order"
+  },
+  "footer": {
+    "copyright": "© 2026 NileCotton. Premium hospitality textiles.",
+    "tagline": "Luxury textile experiences for homes and hotels.",
+    "designerLabel": "Designed by StudioLink",
+    "designerUrl": "https://studiolink.nilelink.app/",
+    "logoUrl": "/nilecotton.png",
+    "logoAlt": "NileCotton logo"
+  },
+  "vendor": {
+    "introLabel": "Vendor collaboration",
+    "title": "Partner with NileCotton for premium hospitality supply.",
+    "description": "Collaborate with our textile team to bring curated linens, towels, and spa programs to luxury hotels, resorts, and residences.",
+    "imageUrl": "/nilecotton.png",
+    "imageAlt": "Vendor preview",
+    "card1Title": "Wholesale coordination",
+    "card1Text": "Align inventory, pricing, and delivery cadence with our refined hospitality programs.",
+    "card2Title": "Supplier partnerships",
+    "card2Text": "Work with a trusted partner that understands premium textile quality and operational hospitality standards.",
+    "ctaText": "Request partner pricing"
+  },
+  "procurement": {
+    "introLabel": "Procurement support",
+    "title": "Hospitality procurement with premium textile clarity.",
+    "description": "For buyers, designers, and project teams seeking refined textile programs, sample support and procurement guidance.",
+    "imageUrl": "/nilecotton.png",
+    "imageAlt": "Procurement preview",
+    "card1Title": "Program scoping",
+    "card1Text": "Align specifications, quantities, and material selections for hospitality projects with polished, premium support.",
+    "card2Title": "Sample approvals",
+    "card2Text": "Receive careful sample guidance and textile recommendations built for high-end guestroom and wellness environments.",
+    "ctaText": "Request a procurement briefing"
+  }
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFDF9" />
+      <stop offset="100%" stop-color="#DCCDB8" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8A6F52" />
+      <stop offset="100%" stop-color="#C7A97B" />
+    </linearGradient>
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <g filter="url(#softGlow)">
+    <circle cx="300" cy="180" r="180" fill="rgba(255, 253, 249, 0.45)" />
+    <ellipse cx="880" cy="450" rx="340" ry="180" fill="rgba(138, 111, 82, 0.12)" />
+  </g>
+
+  <path d="M120 520 C 270 420 430 520 560 460 S 820 500 980 420" fill="none" stroke="url(#accent)" stroke-width="16" stroke-linecap="round" opacity="0.85" />
+  <path d="M100 350 C 250 260 500 310 610 250 S 880 310 1040 230" fill="none" stroke="rgba(138,111,82,0.15)" stroke-width="24" stroke-linecap="round" />
+
+  <text x="80" y="310" font-family="Playfair Display, serif" font-size="82" font-weight="800" letter-spacing="-3" fill="#1C1B1A">NileCotton</text>
+  <text x="80" y="390" font-family="Inter, sans-serif" font-size="34" letter-spacing="0.3em" fill="#8A6F52">LUXURY HOSPITALITY TEXTILES</text>
+  <text x="80" y="460" font-family="Inter, sans-serif" font-size="28" fill="#1C1B1A" opacity="0.9">For luxury homes, hotels, resorts, and spas.</text>
+
+  <rect x="80" y="500" width="460" height="8" rx="4" fill="url(#accent)" opacity="0.95" />
+  <text x="80" y="575" font-family="Inter, sans-serif" font-size="24" fill="#1C1B1A" opacity="0.75">Editorial. Cinematic. Warm. Enterprise-ready.</text>
+</svg>
