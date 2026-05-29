@@ -41,7 +41,7 @@ export default function AdminPanel({ initialContent }: { initialContent: SiteCon
       });
 
       if (!response.ok) {
-        const body = await response.json();
+        const body = (await response.json()) as { error?: string };
         throw new Error(body?.error || "Unable to save content.");
       }
 

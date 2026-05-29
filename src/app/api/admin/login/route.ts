@@ -2,8 +2,10 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { getAdminToken, verifyAdminCredentials, AUTH_COOKIE_NAME } from "@/lib/siteContent";
 
+type AdminLoginBody = { email?: unknown; password?: unknown };
+
 export async function POST(request: NextRequest) {
-  const body = await request.json();
+  const body = (await request.json()) as AdminLoginBody;
   const email = String(body?.email ?? "").trim();
   const password = String(body?.password ?? "").trim();
 

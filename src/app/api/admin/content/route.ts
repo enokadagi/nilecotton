@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import type { SiteContent } from "@/lib/siteContent";
 import { AUTH_COOKIE_NAME, readSiteContent, verifyAdminCookie, writeSiteContent } from "@/lib/siteContent";
 
 export async function GET(request: NextRequest) {
@@ -18,7 +19,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Unauthorized." }, { status: 401 });
   }
 
-  const incoming = await request.json();
+  const incoming = (await request.json()) as SiteContent;
   await writeSiteContent(incoming);
   return NextResponse.json({ ok: true });
 }
